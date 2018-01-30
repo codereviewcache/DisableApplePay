@@ -9,7 +9,7 @@ How to get started
 ==================
 
 The code for disabling Apple Pay is relatively simple. The longer and less documented part is how to get started.
-Disabling Apple Pay requires and entitlement from Apple.
+Disabling Apple Pay requires an entitlement from Apple.
 
 
 Step 1- Request Entitlement for suppressing Apple Pay

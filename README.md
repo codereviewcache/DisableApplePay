@@ -1,14 +1,14 @@
 Introduction
 =================
 
-For apps that accept contactless payments, it would help if Apple Pay is disabled while accdepting payments, so that the merchant's device does not get used to pay herself!
-Apple does provide APIs to disable Apple Pay, and this code sample shows you how to do that, and includes tips for geting and using the necessary entitlement from Apple.
+For apps that accept contactless payments, it would help if Apple Pay is disabled while accepting payments, so that the merchant's device does not get used to pay herself!
+Apple does provide APIs to disable Apple Pay, and this code sample shows you how to do that, but more importantly, it includes tips for obtaining and using the necessary entitlement from Apple.
 
 
 How to get started
 ==================
 
-The code for disabling Apple Pay is relatively simple. The longer and less documented part is how to get started.
+The [code for disabling Apple Pay](https://developer.apple.com/documentation/passkit/pkpasslibrary/1617078-requestautomaticpasspresentation) is relatively simple. The longer and less documented part is how to get started.
 Disabling Apple Pay requires an entitlement from Apple.
 
 

@@ -52,6 +52,7 @@ Step 5- Add the Passkit framework to your project
 =================================================
 
 Remember to set it to optional if you expect your code to work with iOS < 9.0
+
 <img src="images/PasskitOptional.png" width="200">
 
 

@@ -64,6 +64,6 @@ Call requestAutomaticPassPresentationSuppression to suppress Apple Pay
 
 
 
-[Entitlement in the profile](images/ApplePaySuppressionEntitlement.png?raw=true "Entitlement in the profile")
+![Entitlement in the profile](images/ApplePaySuppressionEntitlement.png?raw=true "Entitlement in the profile")
 
 

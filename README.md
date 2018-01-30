@@ -60,3 +60,10 @@ Stap 7- Use the PassKitHelper (or your custom code)
 
 Call requestAutomaticPassPresentationSuppression to suppress Apple Pay
 
+
+
+
+
+[Entitlement in the profile](images/ApplePaySuppressionEntitlement.png)
+
+

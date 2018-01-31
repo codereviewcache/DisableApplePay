@@ -44,7 +44,7 @@ After adding the entitlement as explained in the email, I needed to figure out h
 
 * A quick option to add an empty entitlements file is to go to the capabilities tab and enable some capability, then remove that capability
 * Go to build settings, search for Code Signing Entitlements and set the name of the entitlements file added (removing the capability will reset the Code Signing Entitlements value). The value to be set is the entitlements file name without the .entitlements extension.
-* Add row com.apple.developer.passkit.pass-presentation-suppression to the entitlements file and set its value to Boolean, YES
+* Add row [com.apple.developer.passkit.pass-presentation-suppression](https://developer.apple.com/library/content/documentation/Miscellaneous/Reference/EntitlementKeyReference/ApplePayandPassKitEntitlements/ApplePayandPassKitEntitlements.html) to the entitlements file and set its value to Boolean, YES
 
 <img src="images/Entitlements.png" width="200">
 

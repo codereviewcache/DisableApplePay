@@ -40,7 +40,7 @@ A few days after sending our team IDs, I got the following reply:
 Step 4- Add entitlements
 ========================
 
-After adding the entitlement as explained in the email, I needed to figure out how to add an entitlements file to my project (We did not use any other entitlement)
+After adding the entitlement as explained in the email, I needed to figure out how to add an entitlements file to my project (We do not use any other entitlement)
 
 * A quick option to add an empty entitlements file is to go to the capabilities tab and enable some capability, then remove that capability
 * Go to build settings, search for Code Signing Entitlements and set the name of the entitlements file added (removing the capability will reset the Code Signing Entitlements value). The value to be set is the entitlements file name without the .entitlements extension.

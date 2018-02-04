@@ -44,6 +44,7 @@
 		FB405E5020211B3900603FB0 = {
 			isa = PBXGroup;
 			children = (
+				FB6B76ED20211F4200C236FC /* DisableApplePay.entitlements */,
 				FB405E5B20211B3900603FB0 /* DisableApplePay */,
 				FB405E5A20211B3900603FB0 /* Products */,
 				FB6B76EA20211E9E00C236FC /* Frameworks */,
@@ -61,7 +62,6 @@
 		FB405E5B20211B3900603FB0 /* DisableApplePay */ = {
 			isa = PBXGroup;
 			children = (
-				FB6B76ED20211F4200C236FC /* DisableApplePay.entitlements */,
 				FB405E5C20211B3900603FB0 /* AppDelegate.swift */,
 				FB405E5E20211B3900603FB0 /* ViewController.swift */,
 				FB405E6020211B3900603FB0 /* Main.storyboard */,
@@ -297,7 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DisableApplePay;
+				CODE_SIGN_ENTITLEMENTS = DisableApplePay.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 662E39KG4E;
@@ -317,7 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DisableApplePay;
+				CODE_SIGN_ENTITLEMENTS = DisableApplePay.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 662E39KG4E;

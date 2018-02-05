@@ -35,7 +35,7 @@ A few days after sending our team IDs, I got the following reply:
 > Then go to Xcode, head to build settings, then ensure you select a provisioning profile for which you added the entitlement on the developer website.
 > Then, within Xcode, ensure you add the entitlement “com…” to the entitlement plist.
 
-<img src="images/ApplePaySuppressionEntitlement.png" width="200">
+<img src="http://www.codereviewcache.com/wp-content/uploads/2018/02/ApplePaySuppressionEntitlement.png" width="200">
 
 Step 4- Add entitlements
 ========================
@@ -46,14 +46,14 @@ After adding the entitlement as explained in the email, I needed to figure out h
 * Go to build settings, search for Code Signing Entitlements and set the name of the entitlements file added (removing the capability will reset the Code Signing Entitlements value). The value to be set is the entitlements file name without the .entitlements extension.
 * Add row [com.apple.developer.passkit.pass-presentation-suppression](https://developer.apple.com/library/content/documentation/Miscellaneous/Reference/EntitlementKeyReference/ApplePayandPassKitEntitlements/ApplePayandPassKitEntitlements.html) to the entitlements file and set its value to Boolean, YES
 
-<img src="images/Entitlements.png" width="200">
+<img src="http://www.codereviewcache.com/wp-content/uploads/2018/02/Entitlements.png" width="200">
 
 Step 5- Add the Passkit framework to your project
 =================================================
 
 Remember to set it to optional if you expect your code to work with iOS < 9.0
 
-<img src="images/PasskitOptional.png" width="200">
+<img src="http://www.codereviewcache.com/wp-content/uploads/2018/02/PasskitOptional.png" width="200">
 
 
 Step 6- Download updated profiles
@@ -67,4 +67,5 @@ Stap 7- Use the PassKitHelper (or your custom code)
 
 Call requestAutomaticPassPresentationSuppression to suppress Apple Pay
 
+<img src="http://www.codereviewcache.com/wp-content/uploads/2018/02/ApplePayNotAvailableMessage.png" width="200">
 

@@ -15,7 +15,7 @@ import PassKit
     public static func suppressApplePay() {
         if #available(iOS 9, *) {
             if( PKPassLibrary.isPassLibraryAvailable() && !PKPassLibrary.isSuppressingAutomaticPassPresentation()) {
-                PKPassLibrary.requestAutomaticPassPresentationSuppression(responseHandler: { (result) in
+                tokenPKSuppresion = PKPassLibrary.requestAutomaticPassPresentationSuppression(responseHandler: { (result) in
                     if result == PKAutomaticPassPresentationSuppressionResult.success {
                         print("Automatic Pass Presentation suppressed")
                     }
